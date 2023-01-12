@@ -39,4 +39,16 @@ elif option == 2:
     email = input("Enter email address to delete: ")
     print("Delete entry with the email: " + email)
 
+elif option == 3:
+    import os
+    if os.path.exists("users.html") == True:
+        os.remove("users.html")
+
+
+elif option == 4:
+    filename = input("Enter the new filename (.html): ")
+    # exit()
+
+
+
 
